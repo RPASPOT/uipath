@@ -130,7 +130,7 @@
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#contents-section" class="nav-link"><span>Contents</span></a></li>
-	          <li class="nav-item"><a href="#KeyFeatures-section" class="nav-link"><span>Key Features</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>Module 3-Types Of Workflows</span></a></li>
 			  <li class="nav-item"><a href="#about-section" class="nav-link"><span>About the Course</span></a></li>
 			  <li class="nav-item"><a href="#Curriculum-section" class="nav-link"><span>Course Curriculum</span></a></li>
 	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
@@ -333,40 +333,378 @@
 			<div class="row justify-content-center pb-5">
 				<div class="col-md-10 heading-section text-center ftco-animate">
 			
-			<h1 class="big-4">About the Course</h1>
+			<h1 class="big-4">Module 3 - Types Of Workflows</h1>
 			<div class="underline"></div>
 		</div></div>
+		<h6>UiPath Workflows: A workflow represent a small piece of automation that you can take and re-use in your project.
+		</h6>
+                        <div class="underline"></div>
+						<div class="underline"></div>
+    					<table style="width:100%">
+							<tr>
+							  
+								<th><li class="date"><span>  </span></th>
+							  <th><li class="d-flex"><span>Predefined Workflow Layouts:</span></th>
+							</tr>
+							<tr>
+								<th><li class="d-flex"><span>   1  </span></th>
+								<th><li class="d-flex"><span>Sequences</span></th>
+								
+							  </tr>
+							  <tr>
+								<th><li class="d-flex"><span>  2  </span></th>
+								<th><li class="d-flex"><span>Flowchart</span></th>
+								
+							  </tr>
+							  <tr>
+								<th><li class="d-flex"><span>  3 </span></th>
+								<th><li class="d-flex"><span>State Machine</span></th>
+								
+							  </tr>
+							  <tr>
+								<th><li class="d-flex"><span>   4  </span></th>
+								<th><li class="d-flex"><span>Global Exception Handler</span></th>
+								
+							  </tr>
+						  </table>
+    				</div>
+    			</div>
 		<br>
-		
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<div class="resume-wrap ftco-animate">
-					<span class="date">Duration</span>
+					<span class="date">🔰1. Sequences</span>
 					
 					<p class="mt-4">
 						<ul>
-							<li>45 hours of live online Classroom Core Session.</li>
-							<li>Post that 24 hours of live Online Brushup Session.</li>
+							<li>✅Sequences are the smallest type of project. They are suitable to linear processes as they enable you to go from one activity to another seamlessly, and act as a single block activity.</li>
+							<li>✅One of the key features of sequences is that they can be reused time and again, as a standalone automation or as part of a state machine or flowchart.</li>
+							
+						</ul>
+					</p>
+				</div>
+				
+			</div>
+			<div class="col-md-9">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Example of a Sequence</span>
+					
+					<p class="mt-4">
+						<ul>
+							<li>To create a sequence that asks the user for their first and last name, and their hair color, and then displays their answers, do the following:</li>
+						    <li><img src="UiPathScritpt\Module3-TypesOfWorkflows\1.Sequences.png"  width="700" height="500"></img></li>
+							<li>✅</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\1.Sequences_Variables.png"  width="500" height="200"></img></li>
+							
 						</ul>
 					</p>
 				</div>
 
 			</div>
-				<div class="col-md-4">
+		
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">🔰2. Flowcharts</span>
+					
+					<p class="mt-4">
+						<ul>
+							<li>✅Flowcharts can be used in a variety of settings, from large jobs to small projects that you can reuse in other projects.</li>
+							<li>✅One of the key features of sequences is that they can be reused time and again, as a standalone automation or as part of a state machine or flowchart.</li>
+							
+						</ul>
+					</p>
+				</div>
+				
+			</div>
+			<div class="col-md-9">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Example of a Flowchart</span>
+					
+					<p class="mt-4">
+						<ul>
+							<li>To create a sequence that asks the user for their first and last name, and their hair color, and then displays their answers, do the following:</li>
+						    <li><img src="UiPathScritpt\Module3-TypesOfWorkflows\2.Flowchart.png"  width="700" height="300"></img></li>
+							<li>✅The State activity contains three sections, Entry, Exit and Transition(s).</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\2.Flowchart_FlowDecision.png"  width="700" height="300"></img></li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\2.Flowchart_YoucanVote.png"  width="700" height="300"></img></li>
+							
+						</ul>
+					</p>
+				</div>
+
+			</div>
+		
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">🔰3. State Machine</span>
+					
+					<p class="mt-4">
+						<ul>
+							<li>✅State Machine is a type of Workflow. It provides a modelling
+								style with which you can model your workflow in an event-driven
+								manner. It goes into a state when it is triggered by an 
+								activity, and it exits that state when another activity is 
+								triggered.</li>
+							<li>✅The State activity contains three sections, Entry, Exit and Transition(s)
+								✅Entry Section: It specified action that occures when this state is trasition to. When workflow instance enters
+								a state, any activities in the entry action execute.
+								✅Exit Section: Any activity exetuted when existing the state. When a transation to another state is confirmed
+								the activities in the exit action are executed, even if the state transation
+								back to the same state.
+								✅Transition Section: A trasition represents the transation between twi states. It 
+								displays all the transations linked to the selected state. It is used to add conditions
+								based on which to jump from on state to another.
+								</li>
+							<li>✅Transitions Designer: Transition are created by dragging a line from one state to 
+								another. It is expanded when you double-click them. It has various sections:
+								✅Source- It indicates the state from which this transation originates.
+								✅Trigger- Typically the Trigger is an activity that waits for some type of event to 
+								occur, but it can be any activity, or no activity at all. A Transition's Trigger
+								is scheduled when the transation's source state's Entry action is completed.
+								✅Condition- This section is used to apply condition. Once the trigger activity completes,
+								the Condition is evaluated. If there is no Trigger activity then the Condition
+								is immediately evaluated.
+								✅Action- Specifies the activity that is executed when the trigger activity completed
+								and the Condition evaluates to true.
+								✅Destination- It indicate the state that the state machine transations to after
+								the transation on completes.
+								</li>
+							<li>✅When Project has certain states and Switches during execution.</li>
+							<li>✅Uses a finite number of states in its execution.</li>
+							<li>✅It can go into a state when it is triggered by an activity, and it exists that state when another activity is triggered.</li>
+						    <li>✅State and Final State are specified activity.</li>
+							<li>✅There are two activities that are specific to state machines, namely State and Final State, found under Workflow > State Machine.</li>
+							
+						</ul>
+					</p>
+				</div>
+				
+			</div>
+			<div class="col-md-9">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Example of How to Use a State Machine</span>
+					
+					<p class="mt-4">
+						<ul>
+							
+						    <li><img src="UiPathScritpt\Module3-TypesOfWorkflows\StateMachine_homePage.png"  width="700" height="300"></img></li>
+							<li>✅The State activity contains three sections, Entry, Exit and Transition(s).</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\StateMachine-InitializingRandomNumber.png"  width="700" height="300"></img></li>
+							<li>✅Another important aspect of state machines are transitions, as they also enable you to add conditions based on which to jump from one state to another. These are represented by arrows or branches between states.</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\StateMachine-T1.png"  width="700" height="300"></img></li>
+							<li>✅</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\StateMachine-GuessNumber.png"  width="700" height="500"></img></li>
+							<li>✅</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\StateMachine-TryBigger.png"  width="700" height="500"></img></li>
+							<li>✅</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\StateMachine-TrySmaller.png"  width="700" height="500"></img></li>
+							<li>✅</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\StateMachine-CorrectGuess.png"  width="700" height="500"></img></li>
+							<li>✅while the Final State only contains one section</li>
+							<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\StateMachine-FinalState.png"  width="700" height="500"></img></li>
+							<li>Uses a finite number of states in its execution.</li>
+							<li>It can go into a state when it is triggered by an activity, and it exists that state when another activity is triggered.</li>
+						</ul>
+					</p>
+				</div>
+
+			</div>
+		
+		</div>
+		<div class="row">
+				<div class="col-md-3">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">Trainer Profile</span>
+						<span class="date">🔰4 .Global Exception Handler</span>
 						
 						<p class="mt-4">
 							<ul>
-								<li>Expert trainers with in-depth knowledge of the latest RPA software and tools.</li>
-								<li>The trainer not only has topic expertiese but also an enormous teaching experience of training over 700+ individuls globally.
-								</li>
+								<li>✅Global Exception Handler is a type of workflow which is used to handle the errors
+									encountered in Project. When error  occurs, It redirects to the 
+									Global Handler workflow to log the error and handle the errors.</li>
+								<li>✅Global Exception Handler needs to define once in the Project, Itwill execute every
+									time an activity fails to execute.</li>
+								<li>✅It helps you to execute a workflow or Activity every time an execution error occurs, You
+									can choose option to Ignore the exception, Retry, Break or Continue the execution.</li>
+								
+								<li>✅When you add a Global Handler Workflow, It adds all required activities, Variable and Arguments
+									as a template. Do not Delete the Variable and Arguments from the Global Handler Workflow template.</li>
+								<li>✅There are few option can be used in UiPath Studio to handle the errors.
+									Abort: It stops the execution after running the current handler.
+									Ignore: It ignores the exception and continue the execution from the next activity.
+									Retry: It will retry execution the current activity which is faulted.
+									Continue: It runs the Global Exception Handler workflow.</li>
 							</ul>
+							</ul>
+					</p>
 						</p>
 					</div>
 
 				</div>
+				<div class="col-md-9">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Example of How to Use a Global Exception Handler</span>
+						
+						<p class="mt-4">
+							<ul>
+								<li>✅</li>
+								<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\4.GlobalExceptionHandler_NewGlobalHandler.png"  width="700" height="500"></img></li>
+								<li>✅The entry point of a process (Usually Main.xaml) cannot be declared as an exception handler.</li>
+								<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\4.GlobalExceptionHandler_Main.png"  width="700" height="500"></img></li>
+								<li>✅</li>
+								<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\4.GlobalExceptionHandler_GlobalHandler.png"  width="700" height="500"></img></li>
+								<li>✅If Project,Json file has "exceptionHandlerWorkflow": :GlobalHandler.xaml", It means your
+									Project has Global Exception Handler applied, Workflow name is changed automatically in Project.Jsonwhen you changed the Global
+									Handler workflow name.</li>
+								<li><img src="UiPathScritpt\Module3-TypesOfWorkflows\4.GlobalExceptionHandler_Project.Json.png"  width="700" height="500"></img></li>
+								
+							</ul>
+						</p></div>
 
+					</div>
+			</div>
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+					<div class="col-md-10 heading-section text-center ftco-animate">
+				
+				<h1 class="big-4">Module 4 - Variable, Constants and Argument in Studio</h1>
+				<div class="underline"></div>
+			</div></div>
+			<h6>What is variable?:-
+				 Workflows: A workflow represent a small piece of automation that you can take and re-use in your project.
+			</h6>
+
+			<div class="underline"></div>
+						<div class="underline"></div>
+    					<table style="width:100%">
+							<tr>
+							  
+								<th><li class="date"><span> 1 </span></th>
+							  <th><li class="d-flex"><span>What is variable?</span></th>
+							</tr>
+							<tr>
+								<th><li class="d-flex"><span>   2  </span></th>
+								<th><li class="d-flex"><span>Types of variable</span></th>
+								
+							  </tr>
+							  <tr>
+								<th><li class="d-flex"><span>  3  </span></th>
+								<th><li class="d-flex"><span>Variable scope</span></th>
+								
+							  </tr>
+							  <tr>
+								<th><li class="d-flex"><span>  4 </span></th>
+								<th><li class="d-flex"><span>Invoke workflow file</span></th>
+								
+							  </tr>
+							  <tr>
+								<th><li class="d-flex"><span>   5  </span></th>
+								<th><li class="d-flex"><span>Incoke Code</span></th>
+								
+							  </tr>
+							  <tr>
+								<th><li class="d-flex"><span>   6  </span></th>
+								<th><li class="d-flex"><span>Invoke Method</span></th>
+								
+							  </tr>
+						  </table>
+    				</div>
+    			</div>
+		<br>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">🔰1. What is variable?</span>
+					
+					<p class="mt-4">
+						<ul>
+							<li>✅Variables are storage spaces that can be used to hold multiple data entries( values) of the same data type. In Uipath Variables are used to store values that they can use later or across their automation Process. All variables are unique which means you cannot create two variables of the same name. For Example:</li>
+							<li>✅EmailAddress can be a variable that holds the value “sample@rpatutorials.com”. like these, variables can be used to store multiple values such as Name, Age and etc.</li>
+							<li>✅The value of each variable can be changed through an external input, data manipulation, or passing from one exertion to another and each variable is unique</li>
+						</ul>
+					</p>
+				</div>
+				
+			</div>
+			<div class="col-md-9">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Properties of UiPath Variables</span>
+					
+					<p class="mt-4">
+						<ul>
+							<li>Now let’s understand some of the properties of variables.</li>
+						    <li><img src="UiPathScritpt\Module4-Variables\Variables_Properties.png"  width="700" height="500"></img></li>
+							<span class="date">Types of UiPath Variables</span>
+							<li>✅As now you have familiarised yourself with variables, now we will go through UiPath Variable types of variables used in UiPath for your automation process.</li>
+								
+								<li> ➤Number Variables</li>
+								<li> ➤Text Variables</li>
+								<li> ➤Array Variables</li>
+								<li> ➤True or False Variables</li>
+								<li> ➤Data Table Variables</li>
+								<li> ➤Date and Time Variables</li>
+								<li> ✅➤Int32: Used to store numeric</li>
+											   <li> ✅➤ Boolean: It is used to store True or False values.</li>
+											   <li> ✅➤ String System.Data.DataTable: It is used to store large information such as table data, spreadsheet data, etc.</li>
+											   <li> ✅➤  Array of [T]: Used to store array values.</li>
+											   <li> ✅➤  Object: Objects are used to store multiple data types.</li>
+							
+							
+						</ul>
+					</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">🔰2. Invoke workflow file</span>
+						
+						<p class="mt-4">
+							<ul>
+								<li>✅Variables are storage spaces that can be used to hold multiple data entries( values) of the same data type. In Uipath Variables are used to store values that they can use later or across their automation Process. All variables are unique which means you cannot create two variables of the same name. For Example:</li>
+								<li>✅EmailAddress can be a variable that holds the value “sample@rpatutorials.com”. like these, variables can be used to store multiple values such as Name, Age and etc.</li>
+								<li>✅The value of each variable can be changed through an external input, data manipulation, or passing from one exertion to another and each variable is unique</li>
+							</ul>
+						</p>
+					</div>
+					
+				</div>
+				<div class="col-md-9">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Use Of Invoke Workflow File And Arguments In UiPath</span>
+						
+						<p class="mt-4">
+							<ul>
+								<li>Now let’s understand some of the properties of variables.</li>
+								<li><img src="UiPathScritpt\Module4-Variables\Variables_Properties.png"  width="700" height="500"></img></li>
+								<span class="date">Types of UiPath Variables</span>
+								<li>✅As now you have familiarised yourself with variables, now we will go through UiPath Variable types of variables used in UiPath for your automation process.</li>
+									
+									<li> ➤Number Variables</li>
+									<li> ➤Text Variables</li>
+									<li> ➤Array Variables</li>
+									<li> ➤True or False Variables</li>
+									<li> ➤Data Table Variables</li>
+									<li> ➤Date and Time Variables</li>
+									<li> ✅➤Int32: Used to store numeric</li>
+												   <li> ✅➤ Boolean: It is used to store True or False values.</li>
+												   <li> ✅➤ String System.Data.DataTable: It is used to store large information such as table data, spreadsheet data, etc.</li>
+												   <li> ✅➤  Array of [T]: Used to store array values.</li>
+												   <li> ✅➤  Object: Objects are used to store multiple data types.</li>
+								
+								
+							</ul>
+						</p>
+					</div>
+	
+				</div>
+		
+		</div>
 				<div class="col-md-4">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">Membership Program</span>
